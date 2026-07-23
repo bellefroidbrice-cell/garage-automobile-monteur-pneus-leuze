@@ -135,6 +135,40 @@ export const TARIFS = [
   },
 ]
 
+export const BRANDS = [
+  'Michelin',
+  'Pirelli',
+  'Bridgestone',
+  'Goodyear',
+  'Dunlop',
+  'Hankook',
+  'Barum',
+  'Continental',
+  'Yokohama',
+  'Firestone',
+  'Uniroyal',
+  'Kumho Tire',
+  'Hifly Tires',
+  'Maxxis',
+  'Toyo Tires',
+  'Linglong Tire',
+  'Apollo',
+  'Wanli',
+  'BFGoodrich',
+  'Kleber',
+  'Lassa',
+  'Petlas',
+  'Goodride',
+  'Nankang',
+  'Nokian Tyres',
+  'Fulda',
+  'Viking',
+  'Semperit',
+  'Vredestein',
+  'Federal',
+  'Aplus',
+]
+
 export const SERVICES = [
   {
     title: 'Vente de pneus',
