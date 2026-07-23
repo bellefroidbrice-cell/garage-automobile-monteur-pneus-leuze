@@ -1,4 +1,5 @@
 import { BUSINESS, HOURS } from '../data.js'
+import QuoteForm from './QuoteForm.jsx'
 
 const MAPS_EMBED_SRC = `https://www.google.com/maps?q=${encodeURIComponent(
   BUSINESS.mapsQuery,
@@ -16,7 +17,7 @@ export default function Contact() {
           Nous trouver
         </h2>
 
-        <div className="mt-10 md:mt-14 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+        <div className="mt-10 md:mt-14 grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-12">
           <div className="space-y-8">
             <div>
               <h3 className="font-display uppercase text-sm tracking-widest text-orange-500">
@@ -70,6 +71,10 @@ export default function Contact() {
                 </tbody>
               </table>
             </div>
+          </div>
+
+          <div className="rounded-2xl border border-white/10 bg-white/5 p-6 md:p-8">
+            <QuoteForm />
           </div>
 
           <div className="rounded-2xl overflow-hidden border border-white/10 min-h-[320px]">
