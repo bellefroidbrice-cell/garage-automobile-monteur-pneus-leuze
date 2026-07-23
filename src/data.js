@@ -18,6 +18,12 @@ export const HOURS = [
   { day: 'Dimanche', hours: 'Fermé' },
 ]
 
+export const LEGAL = {
+  legalForm: 'À compléter',
+  registrationNumber: 'À compléter',
+  publisher: 'À compléter',
+}
+
 export const SERVICES = [
   {
     title: 'Vente de pneus',
