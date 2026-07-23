@@ -1,12 +1,26 @@
-# unpacked plugin folders
-plugins/**/*
+# Logs
+logs
+*.log
+npm-debug.log*
 
-# files directory where uploads go
-files
+# Dependencies
+node_modules
 
-# DBMigrate plugin: generated SQL
-db/sql
+# Build output
+dist
+dist-ssr
 
-# AssetBundler plugin: generated bundles
-javascripts/bundles
-stylesheets/bundles
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Env
+.env
+.env.local
