@@ -1,21 +1,18 @@
 import TireIcon from './TireIcon.jsx'
 import { BUSINESS } from '../data.js'
+import heroImage from '../assets/garage-entree.jpeg'
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-[#0B0B0D]">
-      {/* Placeholder background: swap for a real photo of the garage/pneus later
-          e.g. <img src="/images/hero.jpg" className="absolute inset-0 w-full h-full object-cover opacity-40" /> */}
-      <div
-        className="absolute inset-0 opacity-[0.07]"
-        style={{
-          backgroundImage:
-            'repeating-linear-gradient(45deg, #ffffff 0, #ffffff 2px, transparent 2px, transparent 14px)',
-        }}
+    <section className="relative overflow-hidden bg-[#0B0B0D] min-h-[560px] md:min-h-[680px] flex items-center">
+      <img
+        src={heroImage}
+        alt="Entrée du garage Teker Pneus à Eghezée"
+        className="absolute inset-0 w-full h-full object-cover object-center"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0B0B0D] via-[#0B0B0D]/95 to-[#0B0B0D]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0B0B0D]/90 via-[#0B0B0D]/80 to-[#0B0B0D]" />
 
-      <div className="relative z-10 mx-auto max-w-6xl px-4 md:px-6 py-20 md:py-32 flex flex-col items-center text-center">
+      <div className="relative z-10 mx-auto max-w-6xl px-4 md:px-6 py-20 md:py-32 flex flex-col items-center text-center w-full">
         <div className="mb-6 inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-white/90">
           <TireIcon className="w-4 h-4 text-orange-500" />
           Garage spécialisé pneus à Eghezée (Leuze)
