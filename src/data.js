@@ -18,6 +18,12 @@ export const HOURS = [
   { day: 'Dimanche', hours: 'Fermé' },
 ]
 
+export const GOOGLE_REVIEWS = {
+  rating: 3.8,
+  totalReviews: 262,
+  fiveStarReviews: 150,
+}
+
 export const LEGAL = {
   legalForm: 'À compléter',
   registrationNumber: 'À compléter',
