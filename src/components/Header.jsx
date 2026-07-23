@@ -3,6 +3,7 @@ import { BUSINESS } from '../data.js'
 
 const NAV_LINKS = [
   { label: 'Services', href: '#services' },
+  { label: 'Tarifs', href: '#tarifs' },
   { label: 'À propos', href: '#about' },
   { label: 'Contact', href: '#contact' },
 ]

@@ -47,6 +47,10 @@ export default function Contact() {
                   {BUSINESS.phoneDisplay}
                 </a>
                 <br />
+                <a href={BUSINESS.landlineHref} className="hover:text-white transition-colors">
+                  {BUSINESS.landlineDisplay}
+                </a>
+                <br />
                 <a
                   href={`mailto:${BUSINESS.email}`}
                   className="hover:text-white transition-colors"

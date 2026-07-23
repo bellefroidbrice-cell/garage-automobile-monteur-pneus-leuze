@@ -1,6 +1,7 @@
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import Services from './components/Services.jsx'
+import Tarifs from './components/Tarifs.jsx'
 import About from './components/About.jsx'
 import Reviews from './components/Reviews.jsx'
 import Contact from './components/Contact.jsx'
@@ -13,6 +14,7 @@ export default function App() {
       <Header />
       <Hero />
       <Services />
+      <Tarifs />
       <About />
       <Reviews />
       <Contact />
