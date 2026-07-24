@@ -6,7 +6,7 @@ import { CAR, SPECS } from '../data.js'
 const NAV_LINKS = [
   { label: 'Accueil', href: '#' },
   { label: 'Caractéristiques', href: '#specs' },
-  { label: 'Schéma', href: '#schema' },
+  { label: 'Modèle 3D', href: '#modele-3d' },
 ]
 
 function DotTriangleIcon() {
@@ -173,10 +173,10 @@ export default function HeroGlass() {
           </p>
 
           <a
-            href="#schema"
+            href="#modele-3d"
             className="liquid-glass mt-6 inline-block rounded-full px-6 py-3 text-sm font-medium text-white transition duration-300 hover:bg-white/10 sm:mt-8 sm:px-7 sm:py-3.5"
           >
-            Voir le schéma technique
+            Voir le modèle 3D
           </a>
         </div>
 
