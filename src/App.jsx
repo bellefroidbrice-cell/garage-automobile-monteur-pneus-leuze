@@ -1,5 +1,4 @@
-import Header from './components/Header.jsx'
-import Hero from './components/Hero.jsx'
+import HeroGlass from './components/HeroGlass.tsx'
 import Services from './components/Services.jsx'
 import Brands from './components/Brands.jsx'
 import Tarifs from './components/Tarifs.jsx'
@@ -12,8 +11,7 @@ import Footer from './components/Footer.jsx'
 export default function App() {
   return (
     <div className="min-h-screen bg-[#0B0B0D]">
-      <Header />
-      <Hero />
+      <HeroGlass />
       <Services />
       <Brands />
       <Tarifs />
